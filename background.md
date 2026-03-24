@@ -1,0 +1,3 @@
+# Background
+
+Create a detailed feature breakdown for enabling data products consumption via API interface including data products federation capability (joining/composing multiple data products). Fine grained access control capability is critical to protect sensitive PII data via entitlements. GraphQL API is preferred approach but REST should be considered and used as an alternative where ultra-low latency data access is required. API should be accessible via centralized API Gateway and should ideally be cloud neutral. The entire service should be self-serviced by providing software assets including infrastructure provisioning and CI-CD for multi-cloud deployments. Observability should be built in.
